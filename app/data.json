@@ -1,0 +1,22 @@
+[
+  {
+    "title": "hello world",
+    "latitude": -7.2764785,
+    "longitude": 112.7941515
+  },
+  {
+    "title": "marker1",
+    "latitude": -7.276493,
+    "longitude": 112.794262 
+  },
+  {
+    "title": "marker2",
+    "latitude": -7.276437,
+    "longitude": 112.794648
+  },
+  {
+    "title": "marker3",
+    "latitude": -7.276860,
+    "longitude": 112.794052
+  }
+]
