@@ -64,4 +64,9 @@ function initialize() {
 }
 
 google.maps.event.addDomListener(window, 'load', initialize);
-google.maps.event.addDomListener(window, 'push', initialize);
+google.maps.event.addDomListener(window, 'push', function(){
+  'use strict';
+  if(document.getElementById('map-canvas')){
+    initialize();
+  }
+});
