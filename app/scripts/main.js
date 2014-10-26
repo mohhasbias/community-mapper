@@ -23,7 +23,9 @@ function loadGoogleMap(position) {
       }
     );
 
-  $.getJSON('data.json', function (data) {
+//  $.getJSON('data.json', function (data) {
+  var restBaseURL = 'http://api.mohhasbias.com/index.php';
+  $.getJSON(restBaseURL + '/lighting_survey', function (data) {
     console.log(data);
     var i, marker, contentString;
     for (i = 0; i < data.length; i++) {
